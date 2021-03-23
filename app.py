@@ -17,7 +17,7 @@ UPLOAD_FOLDER = 'Images'
 
 app = Flask(__name__)
 
-root_path = 'Data'
+root_path = 'Models'
 from tensorflow.keras.models import model_from_json
 file_path = os.path.join(root_path,'model_vgg(2).json')
 json_file = open(file_path, 'r')
@@ -27,7 +27,6 @@ model = model_from_json(loaded_model_json)
 weight_file = os.path.join(root_path,'best_model_cgg.h5')
 model.load_weights(weight_file)
 print("Loaded model from disk")
-
 
 def load_test_data(img):
     img = img.resize((128, 128))
