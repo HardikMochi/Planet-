@@ -1,7 +1,7 @@
 
 import os
 import sys
-import cv2
+
 # Flask
 from flask import Flask, redirect, url_for, request, render_template, Response, jsonify, redirect
 from werkzeug.utils import secure_filename
@@ -18,8 +18,8 @@ UPLOAD_FOLDER = 'Images'
 
 app = Flask(__name__)
 
-root_path = 'Data'
-from keras.models import model_from_json
+root_path = 'Models'
+from tensorflow.keras.models import model_from_json
 file_path = os.path.join(root_path,'model_vgg(2).json')
 json_file = open(file_path, 'r')
 loaded_model_json = json_file.read()
