@@ -84,7 +84,7 @@ and the number of epochs used is 50.
 
 <h5>Images</h5>
 <table><tr><td><img src='https://github.com/HardikMochi/Planet-Understanding-the-Amazon-from-Space/blob/main/Images/3.jpg' ></td><td><img src='https://github.com/HardikMochi/Planet-Understanding-the-Amazon-from-Space/blob/main/Images/4.jpg' ></td></tr></table>
-</detail>
+
 <h4>Labels</h4>
 Each image that used for training has several labels. Totally, 17 labels are involved as shown in next section
 <br><h2></h2>
@@ -116,6 +116,7 @@ Each image that used for training has several labels. Totally, 17 labels are inv
 </table>
 
 </detail>
+
 <a name="Data_Preprocessing"></a>
 ### Data_Preprocessing:
 <details open>
