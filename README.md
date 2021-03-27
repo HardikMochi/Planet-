@@ -115,7 +115,7 @@ Each image that used for training has several labels. Totally, 17 labels are inv
   </tr>
 </table>
 
-
+</detail>
 <a name="Data_Preprocessing"></a>
 ### Data_Preprocessing:
 <details open>
