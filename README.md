@@ -17,15 +17,11 @@ The competition contained over 40,000 training images, each of which could conta
 1. [ File Descriptions ](#File_Description)
 2. [ Technologies Used ](#Technologies_Used)    
 3. [ Executive Summary ](#Executive_Summary)
-   * [ 1. Webscraping, Early EDA, and Cleaning ](#Webscraping_Early_EDA_and_Cleaning)
-       * [ Webscraping ](#Webscraping)
-       * [ Early EDA and Cleaning](#Early_EDA_and_Cleaning)
-   * [ 2. Further EDA and Preprocessing ](#Further_EDA_and_Preprocessing) 
-   * [ 3. Modelling and Hyperparameter Tuning ](#Modelling)
-   * [ 4. Evaluation ](#Evaluation)
-       * [ Future Improvements ](#Future_Improvements)
-   * [ 5. Neural Network Modelling ](#Neural_Network_Modelling)
-   * [ 6. Revaluation and Deployment ](#Revaluation)
+   * [ Dataset_Description ](#Dataset_Description)
+   * [ Data_Preprocessing](#Data_Preprocessing)
+   * [ Model_Development ](#Model_Development) 
+   * [ Evaluation ](#Evaluation)
+
 </details>
 
 ## File Descriptions
@@ -166,7 +162,7 @@ As such, we chose the F-beta metric, specifically the F2 score. This is a metric
 </details>
 
 <a name="Evaluation"></a>
-### Evaluation
+### Evaluation:
 <details open>
 <summary>Show/Hide</summary>
 <br>
